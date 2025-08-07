@@ -71,3 +71,52 @@ section .prayar{
   align-items: center;
   justify-content: space-between;
 }
+
+@media only screen and (max-width: 700px) {
+  section .container{
+    margin-right: 5%;
+    text-align: center;
+    margin-left: 5%;
+  }
+  section .top_sec{
+    display: block;
+  }
+  select{
+    width: 225px !important;
+    margin-right: 30px;
+  }
+  section .top_sec  .date{
+    width: 100%;
+    margin: 10px 0 10px 0;
+    border-top: 1px solid #d7d7d74e;
+    border-bottom: 1px solid #d7d7d74e;
+  }
+  section .top_sec h3{
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .top_sec h4{
+    font-size: 21px !important;
+    font-weight: 500;
+  }
+}
+@media  (min-width: 701px) and (max-width:900px) {
+  .container{
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  h3{
+    font-size: 21px !important;
+    font-weight: 500;
+  }
+  h4{
+    font-size: 22px !important;
+  }
+  select{
+    width: 150px !important;
+  }
+  .date{
+    margin-right: 60px;
+  }
+}
+  

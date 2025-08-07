@@ -78,7 +78,7 @@ function App() {
       nextPrayer = 3
     }else if(momentNow.isAfter(moment(prayartimer['Maghrib'],"hh,mm"))
             && momentNow.isBefore(moment(prayartimer["Isha"],"hh,mm"))){
-      nextPrayer = 3
+      nextPrayer = 4
     }else {
       nextPrayer = 0
     }
